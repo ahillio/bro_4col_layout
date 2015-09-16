@@ -15,7 +15,7 @@ function bro_4col_layout_ds_layout_info() {
 
   $layouts = array();
 
-  $layouts['four_column_bricks'] = array(
+  $layouts['four_column'] = array(
     'label' => t('Four Column'),
     'path' => $path . '/layouts/four_column',
     'regions' => array(
