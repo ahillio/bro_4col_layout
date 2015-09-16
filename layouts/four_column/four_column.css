@@ -1,0 +1,28 @@
+/**
+ * @file
+ * Display Suite Four Column Bricks stylesheet.
+ */
+/* ignore and use bootstrap grid instead 
+.ds-first-col {
+  width: 25%;
+  float: left;
+}
+
+.ds-second-col {
+  width: 25%;
+  float: left;
+}
+
+.ds-third-col {
+  width: 25%;
+  float: left;
+}
+
+.ds-fourth-col {
+  width: 25%;
+  float: left;
+}
+
+.ds-footer {
+  clear: left;
+} */

@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * This file inserts the extra layouts into Display Suite. 
+ */
+
+/**
+ * Implements hook_ds_layout_info().
+ */
+function bro_4col_layout_ds_layout_info() {
+
+  // Get the path to the module.
+  $path = drupal_get_path('module', 'bro_4col_layout');
+
+  $layouts = array();
+
+ => TRUE,
+  );
+
+  $layouts['four_column_bricks'] = array(
+    'label' => t('Four Column'),
+    'path' => $path . '/layouts/four_column',
+    'regions' => array(
+      'header' => t('Header'),
+      'first' => t('Above First'),
+      'second' => t('Above Second'),
+      'third' => t('Above Third'),
+      'fourth' => t('Above Fourth'),
+      'footer' => t('Footer'),
+    ),
+    'css' => TRUE,
+    'image' => TRUE,
+  );
+  return $layouts;
+}
